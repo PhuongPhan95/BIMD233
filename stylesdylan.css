@@ -46,6 +46,13 @@ body {
   font-size: 35px;
 }
 
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;

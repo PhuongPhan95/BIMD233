@@ -1,0 +1,8 @@
+body {
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+table.schedule {
+    border: 1px solid black;
+}

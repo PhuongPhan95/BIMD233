@@ -5,14 +5,9 @@
         <!--The <head> element is a container for metadata and is placed between the <html> tag and the <body> tag-->
             <title>A SAMPLE HTML PAGE OF PIPER</title>
             <!--The <style> element is used to define style information for a single HTML page-->
-
+            <link rel="stylesheet" href="stylespiper.css">
             <style type="text/css">
                 h1 {color: palevioletred;}
-
-                .bodyPadding {
-                    padding-left: 22px;
-                    padding-right: 22px;
-                }
 
                 .firstBox {
                     border: 1px outset black;
@@ -26,18 +21,13 @@
         <!--Navigation bar to start-->
         <a href="index.html">Home Page</a> | <a href="DylanPage.html">Dylan's Page</a> | <a href="Cable_test.html">Caleb's Page</a> | <a href="PiperPage.html">Piper's Page</a> | <a href="HuiminPage.html">Huimin's Page</a>
         <h1>PIPER's PAGE</h1>
-        <div class="bodyPadding">
             <h2>I. About Me: </h2>
-                <style>
-
-                </style><!--Mark's comment: Again, it's generally better to put all of the style blocks together. Please move merge this with the one in the <head>-->
             <!--A <div> section in a document that is styled with CSS:-->
             <div class="firstBox">
                 <p> My name is Piper.</p>
                 <p> I am a senior Applied Computing student at UW Bothell.</p>
                 <p> My goal is becoming an UX designer or UX researcher with Computer Science background.</p>
                 <p>I love connecting other people in the UX design industry and using my ability to contribute our society. </p>
-            </div>
             <h2>II. My Programming Skill:</h2>
                 <!--The <ul> is for unordered list with bullets-->
                 <ul>
@@ -47,10 +37,6 @@
                     <li>SQL</li>
                 </ul>
             <h2>III. My Class Schedule: </h2>
-                <style>
-                    table, th, td {
-                        border: 1px solid black;}
-                </style>
                 <!--The <table> tag allow us to arrange data into rows and columns. The <td> is for table cells. The <tr> is for rows. The <th> is for headers.-->
                 <table>
                     <tr align = "center">
@@ -75,7 +61,7 @@
                 <!--The <strong> and <em> tags used for emphasizing parts of a text-->
                 <p> I have a cute little friend at home. He is a hamster and his name is <span style="color: palevioletred"> <strong><em>Peanut</em></strong></span>.</p>
                 <!--The <ol> is for ordered list with numbers-->
-                <p>His favorite food list:</p>
+                <p style="color: pink; font-size: 20px;">His favorite food list:</p>
                 <ol>
                     <li>Cheese</li>
                     <li>Sunflower seeds</li>

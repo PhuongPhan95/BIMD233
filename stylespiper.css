@@ -3,6 +3,9 @@ body {
     padding-right: 22px;
 }
 
+a:hover {
+    color: palevioletred;
+}
 table.schedule {
     border-collapse: collapse;
 }

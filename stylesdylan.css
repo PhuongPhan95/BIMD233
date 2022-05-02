@@ -1,4 +1,4 @@
-<style>
+<style> /*Mark's comment: You don't need to nest this in a style tag so delete lines 1 and 77. The web browser will read the .html page line by line, get to the link tag and then include this file, continuing reading line by line, so including a style tag is sort of like putting a tag within a tag (style within link), which doesn't work.*/
 * {
   box-sizing: border-box;
 }
